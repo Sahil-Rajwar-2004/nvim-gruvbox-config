@@ -1,4 +1,3 @@
-:set number
 :set relativenumber
 :syntax enable
 :set tabstop=4
@@ -19,6 +18,7 @@ call plug#begin()
     Plug 'itchyny/vim-gitbranch'
     Plug 'preservim/nerdtree'
     Plug 'morhetz/gruvbox'
+    Plug 'terryma/vim-multiple-cursors'
 call plug#end()
 
 let g:airline_theme = 'bubblegum'
